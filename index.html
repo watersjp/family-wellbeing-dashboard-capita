@@ -1,10 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Family Wellbeing Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Family &amp; Economic Well-Being Index</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
 </head>
 <body>
-    <h1>Welcome to the Family Wellbeing Dashboard</h1>
-    <p>This is a basic dashboard to manage family wellbeing.</p>
+    <header>
+        <h1>State Family &amp; Economic Well-Being Index Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="#tab1">Overview</a></li>
+                <li><a href="#tab2">Data Tables</a></li>
+                <li><a href="#tab3">Maps</a></li>
+                <li><a href="#tab4">Comparisons</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="tab1">
+            <h2>Overview</h2>
+            <p>Welcome to the State Family &amp; Economic Well-Being Index Dashboard.</p>
+        </section>
+        <section id="tab2">
+            <h2>Data Tables</h2>
+            <!-- Data table structure -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Indicator</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Family Well-Being Score</td>
+                        <td>80</td>
+                    </tr>
+                    <tr>
+                        <td>Economic Well-Being Score</td>
+                        <td>75</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="tab3">
+            <h2>Maps</h2>
+            <div id="map"></div>
+        </section>
+        <section id="tab4">
+            <h2>Comparisons</h2>
+            <div id="scatter-plot"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 State Family &amp; Economic Well-Being Index. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
